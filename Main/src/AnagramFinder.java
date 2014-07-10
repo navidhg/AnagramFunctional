@@ -14,6 +14,9 @@ public class AnagramFinder {
         Collections.sort(names, (a, b) -> b.compareTo(a));
 
         for (String s : names) System.out.println(s);
+
+        System.out.println("testing IntelliJ's Git integration");
+
     }
 
 }
